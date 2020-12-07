@@ -12,6 +12,7 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
+    /*
     'demo-hk': {
       label: '演示服务-香港节点',
       lines: {
@@ -26,10 +27,11 @@ jsproxy_config({
         'node-aliyun-sg.etherdream.com:8443': 1,
       },
     },
+    */
     'mysite': {
       label: '当前站点',
       lines: {
-        [location.host]: 1,
+        [weathered-sun-f59e.daxiyun.workers.dev]: 1,
       }
     },
     // 该节点用于加载大体积的静态资源
