@@ -1,14 +1,14 @@
 'use strict'
 
-/**
+/*
  * static files (404.html, sw.js, conf.js)
  */
-const ASSET_URL = 'https://etherdream.github.io/jsproxy'
+const ASSET_URL = 'https://daxiyun.github.io/jsproxy'
 
 const JS_VER = 10
 const MAX_RETRY = 1
 
-/** @type {RequestInit} */
+/* @type {RequestInit} */
 const PREFLIGHT_INIT = {
   status: 204,
   headers: new Headers({
@@ -18,7 +18,7 @@ const PREFLIGHT_INIT = {
   }),
 }
 
-/**
+/*
  * @param {any} body
  * @param {number} status
  * @param {Object<string, string>} headers
